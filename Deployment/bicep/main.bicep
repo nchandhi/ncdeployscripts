@@ -14,7 +14,7 @@ var resourceGroupName = resourceGroup().name
 var subscriptionId  = subscription().subscriptionId
 
 var solutionLocation = resourceGroupLocation
-var baseUrl = 'https://raw.githubusercontent.com/nchandhi/ncbyctestrepo/main/'
+var baseUrl = 'https://raw.githubusercontent.com/nchandhi/ncdeployscripts/main/'
 
 // ========== Managed Identity ========== //
 module managedIdentityModule 'deploy_managed_identity.bicep' = {
